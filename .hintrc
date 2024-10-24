@@ -23,6 +23,8 @@
         "button-name": "off"
       }
     ],
-    "no-inline-styles": "off"
+    "no-inline-styles": "off",
+    "manifest-exists": "off",
+    "manifest-file-extension": "off"
   }
 }
