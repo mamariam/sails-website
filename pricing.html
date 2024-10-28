@@ -181,52 +181,532 @@
             </div>
         </div>
     </nav>
-    <div class="bg-gray-100 py-12">
-        <div class="max-w-7xl mx-auto text-center">
-          <h2 class="text-3xl font-bold text-gray-900">Options de Tarification Flexibles</h2>
-          <p class="mt-5 mb-10 text-gray-600">Choisissez le forfait qui correspond le mieux aux besoins de votre entreprise.</p>
-      
-          <!-- Section des Cartes de Tarification -->
-          <div class="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-      
-            <!-- Forfait Expédition -->
-            <div class="bg-white p-6 rounded-lg shadow-lg">
-              <h3 class="text-xl font-semibold text-blue-600">Forfait Expédition</h3>
-              <p class="mt-4 text-gray-700">Inclut la gestion des stocks, tableau de bord pour les revendeurs, Excel alimenté par l'IA, et une intégration fluide.</p>
-              <div class="mt-6">
-                <p class="text-4xl font-bold">199€<span class="text-xl text-gray-500">/mois</span></p>
-                <p class="text-gray-500">ou 1 999€/an</p>
-              </div>
-              <button class="mt-6 w-full bg-blue-600 text-white py-2 rounded-lg">Choisir le Forfait Expédition</button>
+
+    <section class="py-14 lg:py-24 relative">
+            <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                <h1 class="font-manrope font-bold text-5xl text-gray-900 text-center mb-4">Choisissez votre forfait</h1>
+                <p class="font-normal text-base leading-7 text-gray-500 mb-8 text-center">7 jours d'essai gratuit. Aucune carte de crédit requise .</p>
+                <div class="flex items-center justify-center gap-4 mb-20">
+                    <p class="font-medium text-xl leading-8 text-gray-900">Payement mensuel</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="45" height="26" viewBox="0 0 45 26" fill="none">
+                        <rect x="1" width="44" height="24" rx="12" fill="#E0E7FF" />
+                        <g filter="url(#filter0_d_12308_8491)">
+                            <circle cx="13" cy="12" r="10" fill="#4F46E5" />
+                        </g>
+                        <defs>
+                            <filter id="filter0_d_12308_8491" x="0" y="0" width="26" height="26"
+                                filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                <feColorMatrix in="SourceAlpha" type="matrix"
+                                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                <feOffset dy="1" />
+                                <feGaussianBlur stdDeviation="1.5" />
+                                <feColorMatrix type="matrix"
+                                    values="0 0 0 0 0.0627451 0 0 0 0 0.0941176 0 0 0 0 0.156863 0 0 0 0.08 0" />
+                                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_12308_8491" />
+                                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_12308_8491"
+                                    result="shape" />
+                            </filter>
+                        </defs>
+                    </svg>
+                    <p class="font-normal text-xl leading-8 text-gray-500">Payement annuel</p>
+                </div>
+    
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-md mx-auto md:max-w-3xl lg:max-w-full">
+                
+    
+                    <div
+                        class="Pro rounded-2xl border border-gray-300 p-4 xl:p-6 flex flex-col justify-between transition-all duration-500 hover:border-indigo-600">
+                        <div class="data">
+                            <h6 class="font-semibold text-base leading-7 text-fuchsia-400 mb-3">transport</h6>
+                            <h4 class="font-manrope font-bold text-3xl text-gray-900 leading-tight mb-2 flex items-center">
+                                $199 <span class="font-medium text-xs leading-5 text-fuchsia-400 ml-2.5"></span></h4>
+                            <p class="font-normal text-base leading-8 text-gray-600 mb-6">Pré-mensuel</p>
+    
+                            <div class="hidden lg:flex items-center gap-4 mb-3">
+                                <svg class="stroke-gray-900" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M5 12L9.28722 16.2923C9.62045 16.6259 9.78706 16.7927 9.99421 16.7928C10.2014 16.7929 10.3681 16.6262 10.7016 16.2929L20 7"
+                                        stroke="" stroke-width="1.6" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+    
+                                <span class="font-normal text-sm leading-6 text-gray-500">Gestion des stocks</span>
+                            </div>
+    
+                            <div class="hidden lg:flex items-center gap-4 mb-3">
+                                <svg class="stroke-gray-900" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M5 12L9.28722 16.2923C9.62045 16.6259 9.78706 16.7927 9.99421 16.7928C10.2014 16.7929 10.3681 16.6262 10.7016 16.2929L20 7"
+                                        stroke="" stroke-width="1.6" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+    
+                                <span class="font-normal text-sm leading-6 text-gray-500">Tableau de bords des revendeurs</span>
+                            </div>
+    
+                            <div class="hidden lg:flex items-center gap-4 mb-3">
+                                <svg class="stroke-gray-900" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M5 12L9.28722 16.2923C9.62045 16.6259 9.78706 16.7927 9.99421 16.7928C10.2014 16.7929 10.3681 16.6262 10.7016 16.2929L20 7"
+                                        stroke="" stroke-width="1.6" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+    
+                                <span class="font-normal text-sm leading-6 text-gray-500">Excel alimenté par l'IA</span>
+                            </div>
+                            <div class="hidden lg:flex items-center gap-4 mb-3">
+                                <svg class="stroke-gray-900" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M5 12L9.28722 16.2923C9.62045 16.6259 9.78706 16.7927 9.99421 16.7928C10.2014 16.7929 10.3681 16.6262 10.7016 16.2929L20 7"
+                                        stroke="" stroke-width="1.6" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+    
+                                <span class="font-normal text-sm leading-6 text-gray-500">Intégration transparente</span>
+                            </div>
+                        </div>
+    
+                      
+    
+                        <button
+                            class="group flex items-center justify-center py-3 px-3 xl:px-6 rounded-full bg-indigo-50 shadow-sm shadow-indigo-100 mt-auto relative bottom-0 transition-all duration-500 hover:bg-indigo-600">
+                            <span class="px-2 font-semibold text-sm text-indigo-600 group-hover:text-white whitespace-nowrap">Achetez Maintenant</span>
+                            <svg width="23" height="22" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path class="stroke-indigo-600 group-hover:stroke-white"
+                                    d="M3.25 11L17.9167 11M13.3333 16.5L18.1852 11.6482C18.4907 11.3426 18.6435 11.1898 18.6435 11C18.6435 10.8102 18.4907 10.6574 18.1852 10.3518L13.3333 5.5"
+                                    stroke="#4F46E5" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+    
+                        </button>
+                    </div>
+    
+                    <div
+                        class="Startup rounded-2xl border border-gray-300 p-4 xl:p-6 flex flex-col justify-between transition-all duration-500 hover:border-indigo-600">
+                        <div class="data">
+                            <h6 class="font-semibold text-base leading-7 text-amber-400 mb-3">Ecole</h6>
+                            <h4 class="font-manrope font-bold text-3xl text-gray-900 leading-tight mb-2 flex items-center">
+                                $299 <span class="font-medium text-xs leading-5 text-fuchsia-400 ml-2.5"> </span></h4>
+                            <p class="font-normal text-base leading-8 text-gray-600 mb-6">Pré-mensuel</p>
+    
+                            <div class="hidden lg:flex items-center gap-4 mb-3">
+                                <svg class="stroke-gray-900" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M5 12L9.28722 16.2923C9.62045 16.6259 9.78706 16.7927 9.99421 16.7928C10.2014 16.7929 10.3681 16.6262 10.7016 16.2929L20 7"
+                                        stroke="" stroke-width="1.6" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+    
+                                <span class="font-normal text-sm leading-6 text-gray-500">Gestion scolaire</span>
+                            </div>
+    
+                            <div class="hidden lg:flex items-center gap-4 mb-3">
+                                <svg class="stroke-gray-900" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M5 12L9.28722 16.2923C9.62045 16.6259 9.78706 16.7927 9.99421 16.7928C10.2014 16.7929 10.3681 16.6262 10.7016 16.2929L20 7"
+                                        stroke="" stroke-width="1.6" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+    
+                                <span class="font-normal text-sm leading-6 text-gray-500">Bibliothèque & finances</span>
+                            </div>
+    
+                            <div class="hidden lg:flex items-center gap-4 mb-3">
+                                <svg class="stroke-gray-900" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M5 12L9.28722 16.2923C9.62045 16.6259 9.78706 16.7927 9.99421 16.7928C10.2014 16.7929 10.3681 16.6262 10.7016 16.2929L20 7"
+                                        stroke="" stroke-width="1.6" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+    
+                                <span class="font-normal text-sm leading-6 text-gray-500">Accès décentralisé</span>
+                            </div>
+    
+                        </div>
+    
+
+                        <button
+                            class="group flex items-center justify-center py-3 px-3 xl:px-6 rounded-full bg-indigo-50 shadow-sm shadow-indigo-100 mt-auto relative bottom-0 transition-all duration-500 hover:bg-indigo-600">
+                            <span class="px-2 font-semibold text-sm text-indigo-600 group-hover:text-white whitespace-nowrap">Achetez Maintenant</span>
+                            <svg width="23" height="22" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path class="stroke-indigo-600 group-hover:stroke-white"
+                                    d="M3.25 11L17.9167 11M13.3333 16.5L18.1852 11.6482C18.4907 11.3426 18.6435 11.1898 18.6435 11C18.6435 10.8102 18.4907 10.6574 18.1852 10.3518L13.3333 5.5"
+                                    stroke="#4F46E5" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+    
+                        </button>
+                    </div>
+    
+                    <div
+                        class="Enterprise rounded-2xl border border-gray-300 p-4 xl:p-6 flex flex-col justify-between transition-all duration-500 hover:border-indigo-600">
+                        <div class="data">
+                            <h6 class="font-semibold text-base leading-7 text-blue-400 mb-3">Ingénierie</h6>
+                            <h4 class="font-manrope font-bold text-3xl text-gray-900 leading-tight mb-2 flex items-center">
+                                399$</h4>
+                            <p class="font-normal text-base leading-8 text-gray-600 mb-6">Pré-mensuel</p>
+    
+                            <div class="hidden lg:flex items-center gap-4 mb-3">
+                                <svg class="stroke-gray-900" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M5 12L9.28722 16.2923C9.62045 16.6259 9.78706 16.7927 9.99421 16.7928C10.2014 16.7929 10.3681 16.6262 10.7016 16.2929L20 7"
+                                        stroke="" stroke-width="1.6" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+    
+                                <span class="font-normal text-sm leading-6 text-gray-500">Gestion de projet</span>
+                            </div>
+    
+                            <div class="hidden lg:flex items-center gap-4 mb-3">
+                                <svg class="stroke-gray-900" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M5 12L9.28722 16.2923C9.62045 16.6259 9.78706 16.7927 9.99421 16.7928C10.2014 16.7929 10.3681 16.6262 10.7016 16.2929L20 7"
+                                        stroke="" stroke-width="1.6" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+    
+                                <span class="font-normal text-sm leading-6 text-gray-500">Gestion des employés</span>
+                            </div>
+    
+                            <div class="hidden lg:flex items-center gap-4 mb-3">
+                                <svg class="stroke-gray-900" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M5 12L9.28722 16.2923C9.62045 16.6259 9.78706 16.7927 9.99421 16.7928C10.2014 16.7929 10.3681 16.6262 10.7016 16.2929L20 7"
+                                        stroke="" stroke-width="1.6" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+    
+                                <span class="font-normal text-sm leading-6 text-gray-500">Word et Email propulsés par l'IA</span>
+                            </div>
+    
+                            <div class="hidden lg:flex items-center gap-4 mb-3">
+                                <svg class="stroke-gray-900" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M5 12L9.28722 16.2923C9.62045 16.6259 9.78706 16.7927 9.99421 16.7928C10.2014 16.7929 10.3681 16.6262 10.7016 16.2929L20 7"
+                                        stroke="" stroke-width="1.6" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+    
+                                <span class="font-normal text-sm leading-6 text-gray-500">Sécurité des données et évolutivité</span>
+                            </div>
+    
+                        </div> 
+    
+                        <div class="card-data mt-5 block lg:hidden">
+                            <h5 class="font-medium text-xl leading-8 text-gray-900 mb-4">Usage</h5>
+                            <ul class="mb-7">
+                                <li class="flex items-center justify-between py-1.5 border-b border-gray-100">
+                                    <p class="font-normal text-sm text-gray-400">MAUs</p>
+                                    <p class="font-normal text-sm text-gray-900">Custom</p>
+                                </li>
+                                <li class="flex items-center justify-between py-1.5 border-b border-gray-100">
+                                    <p class="font-normal text-sm text-gray-400">Simultaneous Connections per room</p>
+                                    <p class="font-normal text-sm text-gray-900">Custom</p>
+                                </li>
+                                <li class="flex items-center justify-between py-1.5 border-b border-gray-100">
+                                    <p class="font-normal text-sm text-gray-400">Projects</p>
+                                    <p class="font-normal text-sm text-gray-900">Custom</p>
+                                </li>
+                                <li class="flex items-center justify-between py-1.5 border-b border-gray-100">
+                                    <p class="font-normal text-sm text-gray-400">Seats</p>
+                                    <p class="font-normal text-sm text-gray-900">Custom</p>
+                                </li>
+                            </ul>
+    
+                            <h5 class="font-medium text-xl leading-8 text-gray-900 mb-4">Collaborative document</h5>
+                            <ul class="mb-7">
+                                <li class="flex items-center justify-between py-1.5 border-b border-gray-100">
+                                    <p class="font-normal text-sm text-gray-400">Presence</p>
+                                    <span><svg class="stroke-gray-900" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M5 12L9.28722 16.2923C9.62045 16.6259 9.78706 16.7927 9.99421 16.7928C10.2014 16.7929 10.3681 16.6262 10.7016 16.2929L20 7"
+                                                stroke="" stroke-width="1.6" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+                                </li>
+                                <li class="flex items-center justify-between py-1.5 border-b border-gray-100">
+                                    <p class="font-normal text-sm text-gray-400">Broadcast</p>
+                                    <span><svg class="stroke-gray-900" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M5 12L9.28722 16.2923C9.62045 16.6259 9.78706 16.7927 9.99421 16.7928C10.2014 16.7929 10.3681 16.6262 10.7016 16.2929L20 7"
+                                                stroke="" stroke-width="1.6" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+                                </li>
+                                <li class="flex items-center justify-between py-1.5 border-b border-gray-100">
+                                    <p class="font-normal text-sm text-gray-400">Conflict-free data types</p>
+                                    <span><svg class="stroke-gray-900" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M5 12L9.28722 16.2923C9.62045 16.6259 9.78706 16.7927 9.99421 16.7928C10.2014 16.7929 10.3681 16.6262 10.7016 16.2929L20 7"
+                                                stroke="" stroke-width="1.6" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+                                </li>
+                            </ul>
+    
+                            <h5 class="font-medium text-xl leading-8 text-gray-900 mb-4">Document management</h5>
+                            <ul class="mb-7">
+                                <li class="flex items-center justify-between py-1.5 border-b border-gray-100">
+                                    <p class="font-normal text-sm text-gray-400">Document browsing</p>
+                                    <span><svg class="stroke-gray-900" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M5 12L9.28722 16.2923C9.62045 16.6259 9.78706 16.7927 9.99421 16.7928C10.2014 16.7929 10.3681 16.6262 10.7016 16.2929L20 7"
+                                                stroke="" stroke-width="1.6" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+                                </li>
+                                <li class="flex items-center justify-between py-1.5 border-b border-gray-100">
+                                    <p class="font-normal text-sm text-gray-400">Permissions management</p>
+                                    <span><svg class="stroke-gray-900" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M5 12L9.28722 16.2923C9.62045 16.6259 9.78706 16.7927 9.99421 16.7928C10.2014 16.7929 10.3681 16.6262 10.7016 16.2929L20 7"
+                                                stroke="" stroke-width="1.6" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+                                </li>
+                            </ul>
+    
+                            <h5 class="font-medium text-xl leading-8 text-gray-900 mb-4">Build and monitor</h5>
+                            <ul class="mb-7">
+                                <li class="flex items-center justify-between py-1.5 border-b border-gray-100">
+                                    <p class="font-normal text-sm text-gray-400">DevTools</p>
+                                    <span><svg class="stroke-gray-900" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M5 12L9.28722 16.2923C9.62045 16.6259 9.78706 16.7927 9.99421 16.7928C10.2014 16.7929 10.3681 16.6262 10.7016 16.2929L20 7"
+                                                stroke="" stroke-width="1.6" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+                                </li>
+                                <li class="flex items-center justify-between py-1.5 border-b border-gray-100">
+                                    <p class="font-normal text-sm text-gray-400">Starter Kit</p>
+                                    <span><svg class="stroke-gray-900" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M5 12L9.28722 16.2923C9.62045 16.6259 9.78706 16.7927 9.99421 16.7928C10.2014 16.7929 10.3681 16.6262 10.7016 16.2929L20 7"
+                                                stroke="" stroke-width="1.6" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+                                </li>
+                                <li class="flex items-center justify-between py-1.5 border-b border-gray-100">
+                                    <p class="font-normal text-sm text-gray-400">Analytics</p>
+                                    <span><svg class="stroke-gray-900" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M5 12L9.28722 16.2923C9.62045 16.6259 9.78706 16.7927 9.99421 16.7928C10.2014 16.7929 10.3681 16.6262 10.7016 16.2929L20 7"
+                                                stroke="" stroke-width="1.6" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+                                </li>
+                                <li class="flex items-center justify-between py-1.5 border-b border-gray-100">
+                                    <p class="font-normal text-sm text-gray-400">REST API</p>
+                                    <span><svg class="stroke-gray-900" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M5 12L9.28722 16.2923C9.62045 16.6259 9.78706 16.7927 9.99421 16.7928C10.2014 16.7929 10.3681 16.6262 10.7016 16.2929L20 7"
+                                                stroke="" stroke-width="1.6" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+                                </li>
+                                <li class="flex items-center justify-between py-1.5 border-b border-gray-100">
+                                    <p class="font-normal text-sm text-gray-400">Schemas</p>
+                                    <span><svg class="stroke-gray-900" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M5 12L9.28722 16.2923C9.62045 16.6259 9.78706 16.7927 9.99421 16.7928C10.2014 16.7929 10.3681 16.6262 10.7016 16.2929L20 7"
+                                                stroke="" stroke-width="1.6" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+                                </li>
+                                <li class="flex items-center justify-between py-1.5 border-b border-gray-100">
+                                    <p class="font-normal text-sm text-gray-400">Priority support</p>
+                                    <span><svg class="stroke-gray-900" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M5 12L9.28722 16.2923C9.62045 16.6259 9.78706 16.7927 9.99421 16.7928C10.2014 16.7929 10.3681 16.6262 10.7016 16.2929L20 7"
+                                                stroke="" stroke-width="1.6" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+                                </li>
+                            </ul>
+    
+                            <h5 class="font-medium text-xl leading-8 text-gray-900 mb-4">Support</h5>
+                            <ul class="mb-7">
+                                <li class="flex items-center justify-between py-1.5 border-b border-gray-100">
+                                    <p class="font-normal text-sm text-gray-400">Community support</p>
+                                    <span><svg class="stroke-gray-900" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M5 12L9.28722 16.2923C9.62045 16.6259 9.78706 16.7927 9.99421 16.7928C10.2014 16.7929 10.3681 16.6262 10.7016 16.2929L20 7"
+                                                stroke="" stroke-width="1.6" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+                                </li>
+                                <li class="flex items-center justify-between py-1.5 border-b border-gray-100">
+                                    <p class="font-normal text-sm text-gray-400">Email support</p>
+                                    <span><svg class="stroke-gray-900" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M5 12L9.28722 16.2923C9.62045 16.6259 9.78706 16.7927 9.99421 16.7928C10.2014 16.7929 10.3681 16.6262 10.7016 16.2929L20 7"
+                                                stroke="" stroke-width="1.6" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+                                </li>
+                                <li class="flex items-center justify-between py-1.5 border-b border-gray-100">
+                                    <p class="font-normal text-sm text-gray-400">Priority support</p>
+                                    <span><svg class="stroke-gray-900" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M5 12L9.28722 16.2923C9.62045 16.6259 9.78706 16.7927 9.99421 16.7928C10.2014 16.7929 10.3681 16.6262 10.7016 16.2929L20 7"
+                                                stroke="" stroke-width="1.6" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+                                </li>
+                            </ul>
+    
+                            <h5 class="font-medium text-xl leading-8 text-gray-900 mb-4">Platform Security and Compliance
+                            </h5>
+                            <ul class="mb-7">
+                                <li class="flex items-center justify-between py-1.5 border-b border-gray-100">
+                                    <p class="font-normal text-sm text-gray-400">SSO</p>
+                                    <p class="font-normal text-sm text-gray-900">G suite, GitHub</p>
+                                </li>
+                                <li class="flex items-center justify-between py-1.5 border-b border-gray-100">
+                                    <p class="font-normal text-sm text-gray-400">SOC 2</p>
+                                    <p class="font-normal text-sm text-gray-900">Coming soon</p>
+                                </li>
+                                <li class="flex items-center justify-between py-1.5 border-b border-gray-100">
+                                    <p class="font-normal text-sm text-gray-400">Security questionnaires</p>
+                                    <p class="font-normal text-sm text-gray-900">Custom</p>
+                                </li>
+                                <li class="flex items-center justify-between py-1.5 border-b border-gray-100">
+                                    <p class="font-normal text-sm text-gray-400">99.99% Uptime SLA</p>
+                                    <p class="font-normal text-sm text-gray-900">Optional</p>
+                                </li>
+                                <li class="flex items-center justify-between py-1.5 border-b border-gray-100">
+                                    <p class="font-normal text-sm text-gray-400">Data Processing Agreement</p>
+                                    <p class="font-normal text-sm text-gray-900">Optional</p>
+                                </li>
+                            </ul>
+                        </div>
+    
+                        <button
+                            class="group flex items-center justify-center py-3 px-3 xl:px-6 rounded-full bg-indigo-50 shadow-sm shadow-indigo-100 mt-auto relative bottom-0 transition-all duration-500 hover:bg-indigo-600">
+                            <span class="px-2 font-semibold text-sm text-indigo-600 group-hover:text-white whitespace-nowrap">Achetez Maintenant</span>
+                            <svg width="23" height="22" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path class="stroke-indigo-600 group-hover:stroke-white"
+                                    d="M3.25 11L17.9167 11M13.3333 16.5L18.1852 11.6482C18.4907 11.3426 18.6435 11.1898 18.6435 11C18.6435 10.8102 18.4907 10.6574 18.1852 10.3518L13.3333 5.5"
+                                    stroke="#4F46E5" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+    
+                        </button>
+                    </div>
+                </div>
             </div>
-      
-            <!-- Forfait Éducation -->
-            <div class="bg-white p-6 rounded-lg shadow-lg">
-              <h3 class="text-xl font-semibold text-blue-600">Forfait Éducation</h3>
-              <p class="mt-4 text-gray-700">Inclut la gestion scolaire, bibliothèque et finance, et accès décentralisé.</p>
-              <div class="mt-6">
-                <p class="text-4xl font-bold">149€<span class="text-xl text-gray-500">/mois</span></p>
-                <p class="text-gray-500">ou 1 499€/an</p>
-              </div>
-              <button class="mt-6 w-full bg-blue-600 text-white py-2 rounded-lg">Choisir le Forfait Éducation</button>
+        </section>
+    
+    
+        <section class="pb-14 lg:pb-24 relative hidden lg:block before:">
+            <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                <div class="main relative z-10 py-4 table-responsive">
+                    <div class="w-36 lg:w-44 xl:w-56 h-full absolute -z-10 bg-indigo-50 rounded-xl right-[20%] top-0 hidden lg:block"></div>
+        
+                    <div class="table-data">
+                        <table class="table-auto w-full mr-8 mb-14 relative whitespace-nowrap">
+                            <tbody>
+                                <tr>
+                                    <td class="w-80"></td>
+                                    <td class="w-[161px]">
+                                        <h6 class="font-medium text-xl leading-8 text-gray-900 mb-2">Shipping Companies</h6>
+                                        <button class="outline-0 flex items-center gap-2 font-semibold text-sm leading-6 text-emerald-400">
+                                            Learn More
+                                            <svg class="stroke-gray-900" width="22" height="22" viewBox="0 0 22 22" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M2.75 11L17.4167 11M12.8333 16.5L17.6852 11.6482C17.9907 11.3426 18.1435 11.1898 18.1435 11C18.1435 10.8102 17.9907 10.6574 17.6852 10.3518L12.8333 5.5" stroke="" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </button>
+                                    </td>
+                                    <td class="w-[161px]">
+                                        <h6 class="font-medium text-xl leading-8 text-gray-900 mb-2">Educational Institutions</h6>
+                                        <button class="outline-0 flex items-center gap-2 font-semibold text-sm leading-6 text-fuchsia-400">
+                                            Learn More
+                                            <svg class="stroke-gray-900" width="22" height="22" viewBox="0 0 22 22" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M2.75 11L17.4167 11M12.8333 16.5L17.6852 11.6482C17.9907 11.3426 18.1435 11.1898 18.1435 11C18.1435 10.8102 17.9907 10.6574 17.6852 10.3518L12.8333 5.5" stroke="" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </button>
+                                    </td>
+                                    <td class="w-[161px]">
+                                        <h6 class="font-medium text-xl leading-8 text-gray-900 mb-2">Engineering Firms</h6>
+                                        <button class="outline-0 flex items-center gap-2 font-semibold text-sm leading-6 text-amber-400">
+                                            Learn More
+                                            <svg class="stroke-gray-900" width="22" height="22" viewBox="0 0 22 22" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M2.75 11L17.4167 11M12.8333 16.5L17.6852 11.6482C17.9907 11.3426 18.1435 11.1898 18.1435 11C18.1435 10.8102 17.9907 10.6574 17.6852 10.3518L12.8333 5.5" stroke="" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+        
+                        <h5 class="font-medium text-xl leading-8 text-gray-900 mb-4">Features</h5>
+                        <table class="table-auto w-full mb-12 whitespace-nowrap">
+                            <tbody>
+                                <tr class="border-b border-gray-100">
+                                    <td class="py-4 font-normal text-sm leading-6 text-gray-500 w-80">Stock Management</td>
+                                    <td class="py-4 font-normal text-sm leading-6 text-gray-900 w-[161px] px-2">Manage shipments, inventory</td>
+                                </tr>
+                                <tr class="border-b border-gray-100">
+                                    <td class="py-4 font-normal text-sm leading-6 text-gray-500">Reseller Dashboard</td>
+                                    <td class="py-4 font-normal text-sm leading-6 text-gray-900 w-[161px] px-2">Sales tracking, product uploads</td>
+                                </tr>
+                                <tr class="border-b border-gray-100">
+                                    <td class="py-4 font-normal text-sm leading-6 text-gray-500">AI-Powered Excel</td>
+                                    <td class="py-4 font-normal text-sm leading-6 text-gray-900 w-[161px] px-2">Automated tasks, insights</td>
+                                </tr>
+                                <tr class="border-b border-gray-100">
+                                    <td class="py-4 font-normal text-sm leading-6 text-gray-500">Seamless Integration</td>
+                                    <td class="py-4 font-normal text-sm leading-6 text-gray-900 w-[161px] px-2">Works with existing systems</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
             </div>
-      
-            <!-- Forfait Ingénierie -->
-            <div class="bg-white p-6 rounded-lg shadow-lg">
-              <h3 class="text-xl font-semibold text-blue-600">Forfait Ingénierie</h3>
-              <p class="mt-4 text-gray-700">Inclut la gestion de projets, gestion des employés, Word & Email alimentés par l'IA, et la sécurité des données.</p>
-              <div class="mt-6">
-                <p class="text-4xl font-bold">299€<span class="text-xl text-gray-500">/mois</span></p>
-                <p class="text-gray-500">ou 2 999€/an</p>
-              </div>
-              <button class="mt-6 w-full bg-blue-600 text-white py-2 rounded-lg">Choisir le Forfait Ingénierie</button>
-            </div>
-      
-          </div>
-        </div>
-      </div>
+        </section>
+                                    
          
-        <section class="pb-14 mt-25 lg:pb-24 ">
+    <section class="pb-14 mt-25 lg:pb-24 ">
                 <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     <div class="flex flex-col justify-center  gap-6  xl:gap-12 lg:flex-row lg:justify-between ">
                         <div class="w-full  lg:w-2/5">
