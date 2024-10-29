@@ -634,76 +634,167 @@
             </div>
         </section>
     
-    
-        <section class="pb-14 lg:pb-24 relative hidden lg:block before:">
-            <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-                <div class="main relative z-10 py-4 table-responsive">
-                    <div class="w-36 lg:w-44 xl:w-56 h-full absolute -z-10 bg-indigo-50 rounded-xl right-[20%] top-0 hidden lg:block"></div>
-        
-                    <div class="table-data">
-                        <table class="table-auto w-full mr-8 mb-14 relative whitespace-nowrap">
-                            <tbody>
-                                <tr>
-                                    <td class="w-80"></td>
-                                    <td class="w-[161px]">
-                                        <h6 class="font-medium text-xl leading-8 text-gray-900 mb-2">Shipping Companies</h6>
-                                        <button class="outline-0 flex items-center gap-2 font-semibold text-sm leading-6 text-emerald-400">
-                                            Learn More
-                                            <svg class="stroke-gray-900" width="22" height="22" viewBox="0 0 22 22" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M2.75 11L17.4167 11M12.8333 16.5L17.6852 11.6482C17.9907 11.3426 18.1435 11.1898 18.1435 11C18.1435 10.8102 17.9907 10.6574 17.6852 10.3518L12.8333 5.5" stroke="" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
-                                            </svg>
-                                        </button>
-                                    </td>
-                                    <td class="w-[161px]">
-                                        <h6 class="font-medium text-xl leading-8 text-gray-900 mb-2">Educational Institutions</h6>
-                                        <button class="outline-0 flex items-center gap-2 font-semibold text-sm leading-6 text-fuchsia-400">
-                                            Learn More
-                                            <svg class="stroke-gray-900" width="22" height="22" viewBox="0 0 22 22" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M2.75 11L17.4167 11M12.8333 16.5L17.6852 11.6482C17.9907 11.3426 18.1435 11.1898 18.1435 11C18.1435 10.8102 17.9907 10.6574 17.6852 10.3518L12.8333 5.5" stroke="" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
-                                            </svg>
-                                        </button>
-                                    </td>
-                                    <td class="w-[161px]">
-                                        <h6 class="font-medium text-xl leading-8 text-gray-900 mb-2">Engineering Firms</h6>
-                                        <button class="outline-0 flex items-center gap-2 font-semibold text-sm leading-6 text-amber-400">
-                                            Learn More
-                                            <svg class="stroke-gray-900" width="22" height="22" viewBox="0 0 22 22" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M2.75 11L17.4167 11M12.8333 16.5L17.6852 11.6482C17.9907 11.3426 18.1435 11.1898 18.1435 11C18.1435 10.8102 17.9907 10.6574 17.6852 10.3518L12.8333 5.5" stroke="" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
-                                            </svg>
-                                        </button>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-        
-                        <h5 class="font-medium text-xl leading-8 text-gray-900 mb-4">Features</h5>
-                        <table class="table-auto w-full mb-12 whitespace-nowrap">
-                            <tbody>
-                                <tr class="border-b border-gray-100">
-                                    <td class="py-4 font-normal text-sm leading-6 text-gray-500 w-80">Stock Management</td>
-                                    <td class="py-4 font-normal text-sm leading-6 text-gray-900 w-[161px] px-2">Manage shipments, inventory</td>
-                                </tr>
-                                <tr class="border-b border-gray-100">
-                                    <td class="py-4 font-normal text-sm leading-6 text-gray-500">Reseller Dashboard</td>
-                                    <td class="py-4 font-normal text-sm leading-6 text-gray-900 w-[161px] px-2">Sales tracking, product uploads</td>
-                                </tr>
-                                <tr class="border-b border-gray-100">
-                                    <td class="py-4 font-normal text-sm leading-6 text-gray-500">AI-Powered Excel</td>
-                                    <td class="py-4 font-normal text-sm leading-6 text-gray-900 w-[161px] px-2">Automated tasks, insights</td>
-                                </tr>
-                                <tr class="border-b border-gray-100">
-                                    <td class="py-4 font-normal text-sm leading-6 text-gray-500">Seamless Integration</td>
-                                    <td class="py-4 font-normal text-sm leading-6 text-gray-900 w-[161px] px-2">Works with existing systems</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
+        <section class="w-full py-12">
+            <!-- Tableau de comparaison des packages -->
+            <div class="overflow-x-auto">
+                <table class="table-auto w-full mx-3 pb-20 mb-20 border-collapse border border-gray-300">
+                    <thead>
+                        <tr>
+                            <th class="w-1/3 py-4 text-lg text-left "></th>
+                            <th class="w-1/4 py-4 font-bold text-lg text-center bg--100 border-r border-gray-300 ">Transport</th>
+                            <th class="w-1/4 py-4 font-bold text-lg text-center bg-yellow border-r border-gray-300">Ecole</th>
+                            <th class="w-1/4 py-4 font-bold text-lg text-center bg-blue border-r border-gray-300">Ingénierie</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="bg-gray-50 hover:bg-blue-200">
+                            <td class="px-4 py-2 font-semibold"></td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300"><h4 class="font-manrope  text-gray-500 leading-tight mb-2 ">
+                            1.999 $ <span class="font-medium text-xs leading-5 text-fuchsia-400 ml-2.5">/An</span></h4></td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300"><h4 class="font-manrope  text-gray-500 leading-tight mb-2 ">
+                                2.999 $ <span class="font-medium text-xs leading-5 text-fuchsia-400 ml-2.5">/An</span></h4></td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300"><h4 class="font-manrope  text-gray-500 leading-tight mb-2 ">
+                                3.999 $ <span class="font-medium text-xs leading-5 text-fuchsia-400 ml-2.5">/An</span></h4></td>
+                        </tr>
+                        <tr class="bg-gray-100 hover:bg-blue-200">
+                            <td class="px-4 py-2 font-semibold">entreprises de transport</td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300"></td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300"></td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300"></td>
+                        </tr>
+                        <tr class="bg-gray-50 hover:bg-blue-200">
+                            <td class="px-4 py-2 ">Gestion des stocks </td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300">✔️</td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300"></td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300"></td>
+                        </tr>
+                        <tr class="bg-gray-50 hover:bg-blue-200">
+                            <td class="px-4 py-2 ">Tableau de bord des revendeurs</td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300">✔️</td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300"></td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300"></td>
+                        </tr>
+                        <tr class="bg-gray-50 hover:bg-blue-200">
+                            <td class="px-4 py-2 ">Excel alimenté par l'IA</td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300">✔️</td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300">✔️</td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300">✔️</td>
+                        </tr>
+                        <tr class="bg-gray-50 hover:bg-blue-200">
+                            <td class="px-4 py-2 ">Intégration transparente</td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300">✔️</td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300">✔️</td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300">✔️</td>
+                        </tr>
+                        <tr class="bg-gray-100 hover:bg-blue-200">
+                            <td class="px-4 py-2 font-semibold">Gestion scolaire</td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300"></td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300"></td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300"></td>
+                        </tr>
+                        <tr class="bg-gray-50 hover:bg-blue-200 border-r border-gray-300">
+                            <td class="px-4 py-2 ">Accès enseignants</td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300"></td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300">✔️</td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300"></td>
+                        </tr>
+                        <tr class="bg-gray-50 hover:bg-blue-200 border-r border-gray-300">
+                            <td class="px-4 py-2 ">Portail des élèves</td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300"></td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300">✔️</td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300"></td>
+                        </tr>
+                        <tr class="bg-gray-50 hover:bg-blue-200 border-r border-gray-300">
+                            <td class="px-4 py-2 "> Gestion des ressources humaines de l'école</td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300"></td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300">✔️</td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300"></td>
+                        </tr>
+                        <tr class="bg-gray-100 hover:bg-blue-200 border-r border-gray-300">
+                            <td class="px-4 py-2 font-semibold">Bibliothèque & finances</td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300"></td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300"></td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300"></td>
+                        </tr>
+                        <tr class="bg-gray-50 hover:bg-blue-200 border-r border-gray-300">
+                            <td class="px-4 py-2 ">Gestion des livres</td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300"></td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300">✔️</td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300"></td>
+                        </tr>
+                        <tr class="bg-gray-50 hover:bg-blue-200 border-r border-gray-300">
+                            <td class="px-4 py-2 "> Paiements des étudiants</td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300"></td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300">✔️</td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300"></td>
+                        </tr> 
+                        <tr class="bg-gray-50 hover:bg-blue-200 border-r border-gray-300">
+                            <td class="px-4 py-2 ">  Rapports financiers </td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300">✔️</td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300">✔️</td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300">✔️</td>
+                        </tr>
+                        <tr class="bg-gray-100 hover:bg-blue-200 border-r border-gray-300">
+                            <td class="px-4 py-2 font-semibold ">Accès décentralisé</td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300">✔️</td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300">✔️</td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300">✔️</td>
+                        </tr>
+                        <tr class="bg-gray-50 hover:bg-blue-200 border-r border-gray-300">
+                            <td class="px-4 py-2 ">Permissions basées sur les rôles</td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300"></td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300">✔️</td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300"></td>
+                        </tr>
+                        <tr class="bg-gray-50 hover:bg-blue-200 border-r border-gray-300">
+                            <td class="px-4 py-2 "> Mises à jour en temps réel</td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300">✔️</td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300">✔️</td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300">✔️</td>
+                        </tr>
+                        <tr class="bg-gray-50 hover:bg-blue-200 border-r border-gray-300">
+                            <td class="px-4 py-2 ">Stockage de données sécurisé</td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300">✔️</td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300">✔️</td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300">✔️</td>
+                        </tr>
+                        <tr class="bg-gray-100 hover:bg-blue-200 border-r border-gray-300">
+                            <td class="px-4 py-2 font-semibold ">entreprises ingénierie</td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300"></td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300"></td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300">✔️</td>
+                        </tr>
+                        <tr class="bg-gray-50 hover:bg-blue-200 border-r border-gray-300">
+                            <td class="px-4 py-2 ">Gestion de projet</td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300"></td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300"></td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300">✔️</td>
+                        </tr>
+                        <tr class="bg-gray-50 hover:bg-blue-200 border-r border-gray-300">
+                            <td class="px-4 py-2 ">Gestion des employés</td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300"></td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300"></td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300">✔️</td>
+                        </tr>
+                        <tr class="bg-gray-50 hover:bg-blue-200 border-r border-gray-300">
+                            <td class="px-4 py-2 ">Word et Email propulsés par l'IA</td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300"></td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300"></td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300">✔️</td>
+                        </tr>
+                        <tr class="bg-gray-50 hover:bg-blue-200 border-r border-gray-300">
+                            <td class="px-4 py-2 ">Sécurité des données et évolutivité</td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300">✔️</td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300">✔️</td>
+                            <td class="px-4 py-2 text-center border-r border-gray-300">✔️</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </section>
+        
+          
+          
                                     
          
     <section class="pb-14 mt-25 lg:pb-24 ">
